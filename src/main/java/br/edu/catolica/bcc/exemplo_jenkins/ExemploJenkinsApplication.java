@@ -7,6 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class ExemploJenkinsApplication extends SpringBootServletInitializer {
 
+	//teste
 	public static void main(String[] args) {
 		SpringApplication.run(ExemploJenkinsApplication.class, args);
 	}

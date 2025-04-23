@@ -12,6 +12,8 @@ public class HelloController {
     //metodo para buscar o nome de um usuario
     @GetMapping("/{name}")
     public String helloUser(@PathVariable("/name") String name){
+
+        System.out.println("Dalina**************************************");
         return "Seja bem vindo" + name;
     }
 }
